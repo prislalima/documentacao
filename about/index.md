@@ -1,3 +1,3 @@
-# About This Site
+# Sobre este site
 
-This site content was generated using Docify and went to demo in Opensource.com
+O conteúdo deste site foi gerado usando Docify.
