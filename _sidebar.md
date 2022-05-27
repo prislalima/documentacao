@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 - [HOME](README.md)
-- 
+
 - INICIO
 - [Projeto](./tutorials/index)
   - [CETT](./tutorials/tomcat/index)
