@@ -1,10 +1,4 @@
-# Tutorial for Cloud
+# COTEC - Colégio Tecnológico do Estado de Goiás
 
-Are you new to cloud? Cloud platform became hugely popular in the recent years. There are three types of cloud platforms:
-
-- Infrastructre as a Service (IaaS)
-- Platform as a Service (PaaS)
-- Software as a Service (SaaS)
-
-But recently, we also have other services getting invented such as **Container as a Service (CaaS)**.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor ornare massa, eu sollicitudin ipsum interdum quis. Aliquam metus velit, consequat ut placerat sed, pharetra sed velit. Nam vel erat augue. Vestibulum cursus leo nec vehicula imperdiet. Aenean a fermentum dolor. Nam egestas gravida lorem vel placerat. Aenean non nunc eu nisl lobortis ultricies in ut ex. Suspendisse potenti. Cras vitae purus porta ante auctor congue. 
 
