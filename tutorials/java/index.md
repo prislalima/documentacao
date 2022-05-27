@@ -1,23 +1,4 @@
-# Tutorial for Java
+# EFG - Ecola do Futuro do Estado de Goiás
 
-Are you new to Java? Let's start with a very simple HelloWorld.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor ornare massa, eu sollicitudin ipsum interdum quis. Aliquam metus velit, consequat ut placerat sed, pharetra sed velit. Nam vel erat augue. Vestibulum cursus leo nec vehicula imperdiet. Aenean a fermentum dolor. Nam egestas gravida lorem vel placerat. Aenean non nunc eu nisl lobortis ultricies in ut ex. Suspendisse potenti. Cras vitae purus porta ante auctor congue. 
 
-Open your favorite text edtitor, name it as **HelloJava.java** and copy-and-paste the following content.
-
-```java
-public class HelloJava {
-
-  public static void main(String[] args) {
-     System.out.println("Hello, Java!");
-  }
-}
-```
-
-You need to have Java SDK first. Once you have that, run the following commands in sequence.
-
-```bash
-javac HelloJava.java
-java HelloJava
-```
-
-Now, you should see "Hello, World" printed out in the console!
