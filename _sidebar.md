@@ -1,12 +1,13 @@
 <!-- docs/_sidebar.md -->
 - [HOME](README.md)
+- 
+- INICIO
+- [Projeto](./tutorials/index)
+  - [CETT](./tutorials/tomcat/index)
+  - [COTEC](./tutorials/cloud/index)
+  -  [EF](./tutorials/java/index)
 
-- [Tutorials](./tutorials/index)
-  - [Tomcat](./tutorials/tomcat/index)
-  - [Cloud](./tutorials/cloud/index)
-  -  [Java](./tutorials/java/index)
+- [Sobre](./about/index)
 
-- [About](./about/index)
-
-- [Contact](./contact/index)
+- [Contato](./contact/index)
 
