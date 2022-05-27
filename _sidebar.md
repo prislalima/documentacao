@@ -1,14 +1,12 @@
 <!-- docs/_sidebar.md -->
+- [HOME](README.md)
 
+- [Tutorials](./tutorials/index)
+  - [Tomcat](./tutorials/tomcat/index)
+  - [Cloud](./tutorials/cloud/index)
+  -  [Java](./tutorials/java/index)
 
-* [HOME](./)
+- [About](./about/index)
 
-* [Tutorials](./tutorials/index)
-  * [Tomcat](./tutorials/tomcat/index)
-  * [Cloud](./tutorials/cloud/index)
-  * [Java](./tutorials/java/index)
-
-* [About](./about/index)
-
-* [Contact](./contact/index)
+- [Contact](./contact/index)
 
