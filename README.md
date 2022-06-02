@@ -1,4 +1,4 @@
-# Usando Docsify para criar páginas web de documentação para publicar nas Páginas GitHub
+# Usando Docsify para criar páginas web de documentação para publicar nas Páginas GitHub <!-- {docsify-ignore-all} -->
 
 ## O que é uma documentação?
 A documentação é uma parte essencial para tornar qualquer projeto de código aberto útil aos usuários. Mas nem sempre é a principal prioridade dos desenvolvedores, pois eles podem estar mais focados em tornar sua aplicação melhor do que em ajudar as pessoas a usá-la. É por isso que facilitar a publicação de documentação é tão valioso para os desenvolvedores. Neste tutorial, vamos mostrar uma opção para fazer isso: combinar o gerador de documentação Docsify com o GitHub Pages.
