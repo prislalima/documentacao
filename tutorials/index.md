@@ -1,8 +1,10 @@
 
-# CETT/UFFG
+# Como instalar o Docsify
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor ornare massa, eu sollicitudin ipsum interdum quis. Aliquam metus velit, consequat ut placerat sed, pharetra sed velit. Nam vel erat augue. Vestibulum cursus leo nec vehicula imperdiet. Aenean a fermentum dolor. Nam egestas gravida lorem vel placerat. Aenean non nunc eu nisl lobortis ultricies in ut ex. Suspendisse potenti. Cras vitae purus porta ante auctor congue. 
+Existem duas maneiras de instalar o Docsify:
 
-[CETT](./tomcat/index.md)
-[COTEC](./cloud/index.md)
-[EFG](./java/index.md)
+   1. Interface de linha de comando (CLI) do Docsify por meio do NPM
+   2. Manualmente escrevendo seu próprio index.html
+
+A Docsify recomenda a abordagem NPM, mas usaremos a segunda opção. 
+Se você quiser usar o NPM, siga as instruções no guia de quick-start guide.
