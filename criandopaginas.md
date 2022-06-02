@@ -15,7 +15,7 @@ Por exemplo, em uma estrutura de diretórios como a seguinte:
 ```
 
 
-## Sidebar
+## Barra Lateral
 Para ter uma barra lateral, você pode criar sua própria adicionando um arquivo: `_sidebar.md` no seu diretório, como por exemplo:
 
 Primeiro, você precisa definir `loadSidebar` como **true** no seu arquivo ``index.html``. Veja:
@@ -55,7 +55,7 @@ Exemplo de estrutura de arquivo:
 ```
 
 
-## Definir títulos de página da seleção da barra lateral
+## Definir títulos de página da barra lateral
 
 Esta função é para adicionar títulos nos itens da barra lateral, isto é, quando o cursor do mouse passar sobre o nome da seção, a leganda com o título aparecer.Você pode personalizar o título especificando uma string após o nome do arquivo. Veja o exemplo:
 
