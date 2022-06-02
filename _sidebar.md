@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 - [HOME](README.md)
 
-- INICIO
+- Comece a usar o Docsify
 - [Projeto](./tutorials/index "Projetos desenvolvidos pelo CETT/UFG")
   - [CETT](./tutorials/tomcat/index)
   - [COTEC](./tutorials/cloud/index)
