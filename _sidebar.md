@@ -6,6 +6,6 @@
 
 - Comece a usar o Docsify
   - [Início Rápido](iniciorapido.md "Início rápido")
-  - [Adicionando Páginas](criandopaginas.md "Adicionando Páginas")
+  - [Adicionando Novas Páginas](criandopaginas.md "Adicionando Páginas")
  
 
