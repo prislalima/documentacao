@@ -1,33 +1,24 @@
-# More pages
+# Criando Páginas
 
-If you need more pages, you can simply create more markdown files in your docsify directory. If you create a file named `guide.md`, then it is accessible via `/#/guide`.
+Se você precisar de mais páginas, basta criar mais arquivos markdown em seu diretório docsify. Se você criar um arquivo chamado `guia.md`,  então ele estará acessível via `/#/guia`.
 
-For example, the directory structure is as follows:
+Por exemplo, em uma estrutura de diretórios como a seguinte:
 
 ```text
 .
 └── docs
     ├── README.md
-    ├── guide.md
+    ├── guia.md
     └── zh-cn
         ├── README.md
-        └── guide.md
+        └── guia.md
 ```
 
-Matching routes
-
-```text
-docs/README.md        => http://domain.com
-docs/guide.md         => http://domain.com/#/guide
-docs/zh-cn/README.md  => http://domain.com/#/zh-cn/
-docs/zh-cn/guide.md   => http://domain.com/#/zh-cn/guide
-```
 
 ## Sidebar
+Para ter uma barra lateral, você pode criar sua própria adicionando um arquivo: `_sidebar.md` no seu diretório, como por exemplo:
 
-In order to have a sidebar, you can create your own `_sidebar.md` (see [this documentation's sidebar](https://github.com/docsifyjs/docsify/blob/master/docs/_sidebar.md) for an example):
-
-First, you need to set `loadSidebar` to **true**. Details are available in the [configuration paragraph](configuration.md#loadsidebar).
+Primeiro, você precisa definir `loadSidebar` como **true** no seu arquivo ``index.html``. Veja:
 
 ```html
 <!-- index.html -->
@@ -40,20 +31,20 @@ First, you need to set `loadSidebar` to **true**. Details are available in the [
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
 
-Create the `_sidebar.md`:
+Depois, crie o arquivo `_sidebar.md` no seu diretório e insira os itens que aparecerão na barra lateral:
 
 ```markdown
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
-* [Guide](guide.md)
+* [Guia](guia.md)
 ```
 
-You need to create a `.nojekyll` in `./docs` to prevent GitHub Pages from ignoring files that begin with an underscore.
+Você precisa criar um `.nojekyll` no seu diretório docsify para evitar que o GitHub Pages ignore arquivos que começam com um sublinhado.
 
-!> Docsify only looks for `_sidebar.md` in the current folder, and uses that, otherwise it falls back to the one configured using `window.$docsify.loadSidebar` config.
+!> Docsify apenas procura `_sidebar.md` na pasta atual, e usa isso, caso contrário ele volta para o configurado usando a configuração `window.$docsify.loadSidebar`.
 
-Example file structure:
+Exemplo de estrutura de arquivo:
 
 ```text
 └── docs/
@@ -63,42 +54,22 @@ Example file structure:
     └── running-services.md
 ```
 
-## Nested Sidebars
 
-You may want the sidebar to update after navigation to reflect the current directory. This can be done by adding a `_sidebar.md` file to each folder.
+## Definir títulos de página da seleção da barra lateral
 
-`_sidebar.md` is loaded from each level directory. If the current directory doesn't have `_sidebar.md`, it will fall back to the parent directory. If, for example, the current path is `/guide/quick-start`, the `_sidebar.md` will be loaded from `/guide/_sidebar.md`.
-
-You can specify `alias` to avoid unnecessary fallback.
-
-```html
-<script>
-  window.$docsify = {
-    loadSidebar: true,
-    alias: {
-      '/.*/_sidebar.md': '/_sidebar.md'
-    }
-  }
-</script>
-```
-
-!> You can create a `README.md` file in a subdirectory to use it as the landing page for the route.
-
-## Set Page Titles from Sidebar Selection
-
-A page's `title` tag is generated from the _selected_ sidebar item name. For better SEO, you can customize the title by specifying a string after the filename.
+Esta função é para adicionar títulos nos itens da barra lateral, isto é, quando o cursor do mouse passar sobre o nome da seção, a leganda com o título aparecer.Você pode personalizar o título especificando uma string após o nome do arquivo. Veja o exemplo:
 
 ```markdown
 <!-- docs/_sidebar.md -->
 * [Home](/)
-* [Guide](guide.md "The greatest guide in the world")
+* [Guia](guide.md "Guia de documentação")
 ```
 
-## Table of Contents
+## índice
 
-Once you've created `_sidebar.md`, the sidebar content is automatically generated based on the headers in the markdown files.
+Depois de criar `_sidebar.md`, o conteúdo da barra lateral é gerado automaticamente com base nos cabeçalhos dos arquivos markdown.
 
-A custom sidebar can also automatically generate a table of contents by setting a `subMaxLevel`, compare [subMaxLevel configuration](configuration.md#submaxlevel).
+Uma barra lateral personalizada também pode gerar automaticamente um índice definindo um `subMaxLevel`. Por padrão, o valor do `subMaxLevel` é 6, portanto você deve indicar o nível que deseja. NO exemplo abaixo, o `subMaxLevel` foi definido como 2.
 
 ```html
 <!-- index.html -->
@@ -112,27 +83,27 @@ A custom sidebar can also automatically generate a table of contents by setting 
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 ```
 
-## Ignoring Subheaders
+## Ignorando subtítulos
 
-When `subMaxLevel` is set, each header is automatically added to the table of contents by default. If you want to ignore a specific header, add `<!-- {docsify-ignore} -->` to it.
+Quando `subMaxLevel` é definido, cada cabeçalho é adicionado automaticamente ao índice por padrão. Se você quiser ignorar um cabeçalho específico, adicione `<!-- {docsify-ignore} -->` a ele.
 
 ```markdown
 # Getting Started
 
 ## Header <!-- {docsify-ignore} -->
 
-This header won't appear in the sidebar table of contents.
+Este cabeçalho não aparecerá no índice da barra lateral.
 ```
 
-To ignore all headers on a specific page, you can use `<!-- {docsify-ignore-all} -->` on the first header of the page.
+Para ignorar todos os cabeçalhos em uma página específica, você pode usar `<!-- {docsify-ignore-all} -->` no primeiro cabeçalho da página.
 
 ```markdown
 # Getting Started <!-- {docsify-ignore-all} -->
 
 ## Header
 
-This header won't appear in the sidebar table of contents.
+Este cabeçalho não aparecerá no índice da barra lateral.
 ```
 
-Both `<!-- {docsify-ignore} -->` and `<!-- {docsify-ignore-all} -->` will not be rendered on the page when used.
+Ambos `<!-- {docsify-ignore} -->` e `<!-- {docsify-ignore-all} -->` não será renderizado na página quando usado.
 
