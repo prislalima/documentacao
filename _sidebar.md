@@ -3,7 +3,7 @@
 
 - Comece a usar o Docsify
 - [Início Rápido](./tutorials/index "Início rápido")
-  - [CETT](./tutorials/tomcat/index)
+  - [Inicialização manual](./tutorials/tomcat/index)
   - [COTEC](./tutorials/cloud/index)
   -  [EF](./tutorials/java/index)
 
