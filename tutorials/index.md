@@ -38,7 +38,7 @@ Se você não gostar do npm ou tiver problemas para instalar a ferramenta, você
   </body>
 </html>
 ```
-### Especificando versões do docsify
+# Especificando versões do docsify
 
 ?> Observe que em ambos os exemplos abaixo, os URLs docsify precisarão ser atualizados manualmente quando uma nova versão principal do docsify for lançada (e.g. `v4.x.x` => `v5.x.x`). Verifique o site docsify periodicamente para ver se uma nova versão principal foi lançada.
 
