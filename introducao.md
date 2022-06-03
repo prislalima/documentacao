@@ -14,6 +14,6 @@ Por padrão, o GitHub Pages solicita que os usuários usem Jekyll , um gerador d
 
 Felizmente, o suporte a arquivos HTML do GitHub Pages significa que você pode usar outras ferramentas de geração de sites, incluindo Docsify, para criar um site na plataforma. Docsify é um projeto de código aberto licenciado pelo MIT com recursos  que facilitam a criação de um site de documentação avançado atraente no GitHub Pages.
 
-    Este site foi criado usando [**Docsify**](https://docsify.js.org), que é um gerador de site de documentação código aberto, e importado na página do GitHub.. Este site foi criado com apoio de [**Opensource.com**](https://opensource.com).
+    Este site foi criado usando **[Docsify]**(https://docsify.js.org), e importado na página do GitHub.
 
 
