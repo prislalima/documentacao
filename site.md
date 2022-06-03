@@ -32,10 +32,9 @@ onde username é seu nome de usuário (ou nome da organização) no GitHub.
   Obs.: Se a primeira parte do repositório não corresponder exatamente ao seu nome de usuário, 
   não funcionará, portanto, certifique-se de acertar.
   
-<p align="center">
-  <img src="./images/git2.png" alt="criar repositorio">
-</p>
-  
+
+  ![Criar repositório](./images/git2.png)
+
 ## Clonar o repositório
   
 Vá para a pasta onde você deseja armazenar seu projeto e clone o novo repositório:
