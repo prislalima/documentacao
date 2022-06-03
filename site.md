@@ -7,7 +7,7 @@ A ferramenta permite hospedar o seu site no domínio github.io do GitHub ou no s
 Ao menos que você esteja utilizando um domínio próprio, os sites criados pelo GitHub Pages serão disponibilizados em 
 http(s)://<username>.github.io/<repository>, em que <username> corresponde ao nome de usuário da sua conta por lá, e <repository> corresponde ao nome do repositório do projeto a ser publicado.
 
-Este manual foi desenvolvido usando como base as informações disponíveis no [GitHub Pages](https://pages.github.com/).
+Este manual foi desenvolvido baseado nas informações disponíveis no [GitHub Pages](https://pages.github.com/).
 
 ## Minha primeira GitHub Page
 
