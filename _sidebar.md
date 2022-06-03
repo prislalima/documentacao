@@ -3,6 +3,7 @@
 - [Introdução](introducao.md "Introdução")
 
  - Criando GitHub Pages
+   - [Como criar GitHub Pages](site.md "Criando GitHub Pages")
   
 
 - Comece a usar o Docsify
