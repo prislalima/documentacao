@@ -6,6 +6,8 @@ A documentação é uma parte essencial para tornar qualquer projeto de código 
 A utilizaçção do Docsify para criar documentção online em GitHub Pages, consiste basicamente em criar um arquivo ``index.html``, instalar o Docsify e adicionar conteúdo por meio de arquivos escritos em markdown.
 
 ## Docsify 
+De acordo com o [https://docsify.js.org/#/](https://docsify.js.org/#/), o docsify gera seu site de documentação em tempo real. Ao contrário do GitBook, ele não gera arquivos html estáticos. Em vez disso, ele carrega e analisa seus arquivos Markdown de maneira inteligente e os exibe como um site. Para começar a usá-lo, tudo o que você precisa fazer é criar um index.html e implantá-lo no GitHub Pages.
+
 
 ## GitHub Pages
 Por padrão, o GitHub Pages solicita que os usuários usem Jekyll , um gerador de site estático que suporta HTML, CSS e outras tecnologias da web. O Jekyll gera um site estático a partir de arquivos de documentação codificados no formato Markdown, que o GitHub reconhece automaticamente devido à extensão .md ou .markdown.
