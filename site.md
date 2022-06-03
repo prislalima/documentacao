@@ -1,4 +1,4 @@
-#Início
+# Início
 
 O GitHub Page consiste em um serviço de hospedagem de site estático, ou seja, um projeto que utiliza arquivos HTML, CSS e JavaScript diretamente de um repositório no GitHub. 
 Essa hospedagem ocorre pela execução dos arquivos procedida pela publicação em um site.
