@@ -10,7 +10,7 @@ Se você quiser usar o NPM, siga as instruções no guia de quick-start guide.
 
 # Inicialização manual
 
-Se você não gostar do npm ou tiver problemas para instalar a ferramenta, você pode criar manualmente index.html:
+Se você não gostar do NPM ou tiver problemas para instalar a ferramenta, você pode criar manualmente index.html, pois é a única coisa necessária para o Docsify funcionar:
 
 ```html
 <!-- index.html -->
@@ -37,6 +37,23 @@ Se você não gostar do npm ou tiver problemas para instalar a ferramenta, você
   </body>
 </html>
 ```
+
+Este é essencialmente apenas um arquivo HTML simples, mas dê uma olhada nestas duas linhas:
+
+```html
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"/>
+         ...CÓDIGO....
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+```
+Essas linhas usam URLs de rede de entrega de conteúdo (CDN) para servir os scripts CSS e JavaScript para transformar o site em um site Docsify. Contanto que você inclua essas linhas, poderá transformar sua página regular do GitHub em uma página do Docsify.
+
+A primeira linha após a bodytag especifica o que renderizar:
+
+```html
+   <div id="app"></div>
+```
+
 # Especificando versões do docsify
 
 ?> Observe que em ambos os exemplos abaixo, os URLs docsify precisarão ser atualizados manualmente quando uma nova versão principal do docsify for lançada (e.g. `v4.x.x` => `v5.x.x`). Verifique o site docsify periodicamente para ver se uma nova versão principal foi lançada.
