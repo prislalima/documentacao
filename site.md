@@ -19,7 +19,7 @@ Para criar o seu primeiro site no GitHub Page é muito simples, pois basicamente
 
 3. Adicionar ``index.html``
 
-4. Confirme suas mudanças
+4. Confirmar suas mudanças
 
 5. Pronto!
 
@@ -32,17 +32,33 @@ onde username é seu nome de usuário (ou nome da organização) no GitHub.
   Obs.: Se a primeira parte do repositório não corresponder exatamente ao seu nome de usuário, 
   não funcionará, portanto, certifique-se de acertar.
   
+<p align="center">
+  <img src="./images/git2.png" alt="criar repositorio">
+</p>
+  
 ## Clonar o repositório
   
 Vá para a pasta onde você deseja armazenar seu projeto e clone o novo repositório:
   
+  <p align="center">
+  <img src="./images/git.png" alt="clonar repositorio">
+</p>
+  
 ## Adicionar ``index.html``
   
 Entre na pasta do projeto e adicione um arquivo index.html:
+  
+  <p align="center">
+  <img src="./images/git3.png" alt="adicionar html">
+</p>
  
-## Confirme suas mudanças
+## Confirmar suas mudanças
  
 Adicione, confirme e envie suas alterações:
+  
+ <p align="center">
+  <img src="./images/git4.png" alt="comiit">
+</p>
  
 ## Pronto!
  
